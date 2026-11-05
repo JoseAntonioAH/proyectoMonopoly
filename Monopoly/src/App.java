@@ -66,8 +66,7 @@ public class App {
             { premio3, vacia, vacia, vacia, vacia, vacia, vacia, vacia, vacia, multa3 },
             { vivienda15, vacia, vacia, vacia, vacia, vacia, vacia, vacia, vacia, vivienda16 },
             { vivienda17, vacia, vacia, vacia, vacia, vacia, vacia, vacia, vacia, vivienda18 },
-            { carcel2, vivienda19, vivienda20, multa4, vivienda21, vivienda22, premio4, vivienda23, vivienda24,
-                vivienda25 }
+            { carcel2, vivienda19, vivienda20, multa4, vivienda21, vivienda22, premio4, vivienda23, vivienda24,vivienda25 }
                 
             };
             
@@ -137,8 +136,6 @@ public class App {
                     
                     // comienza el bucle de la partida
                     while (jugador1.getSaldo() > 0 && jugador2.getSaldo() > 0){
-
-        
                         for (int i = 0; i < jugadores.length; i++) {
                             if (jugadores[i].getCarcel() == 0) {
                                 System.out.println("\n\n\n#############################################\n\nTURNO DE "
@@ -349,10 +346,6 @@ public class App {
                                 puntuacion = puntuacion + jugadores[j].getSaldo();
                                 puntuacion = puntuacion*100;
                                 int puntos = (int) puntuacion;
-        
-        
-        
-        
         
                                 //guardamos en el documento el nombre del jugador, la puntuacion y la fecha
         
